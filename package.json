@@ -4,10 +4,10 @@
   "description": "Simple interface to Xbox controller using Node.js",
   "main": "./lib/xbox-controller.js",
   "dependencies": {
-    "chalk": "^2.3.0",
+    "chalk": "4.1.2",
     "joystick": "^0.1.2",
-    "node-hid": "^0.5.7",
-    "socket.io": "^2.0.4"
+    "node-hid": "^2.1.2",
+    "socket.io": "^4.6.1"
   },
   "scripts": {
     "test": "node lib/test.js"
